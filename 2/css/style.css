@@ -1,0 +1,55 @@
+body {
+  background:#333;
+  color: antiquewhite;
+  font-family: monospace;
+  text-align: center;
+}
+
+article {
+  margin-top: 10%;
+}
+
+button{
+  background: none repeat scroll 0 0 #CB4E4E;
+  border-radius: 100px;
+  box-shadow: 0 8px #AB3C3C;
+  color: #FFFFFF;
+  width: 150px;
+  height: 150px;
+  border: 0px;
+  cursor: pointer;
+  position: relative;
+  font-size: 25px;
+  margin: 10% auto;
+  display: block;
+}
+
+button:hover{
+  box-shadow: 0px 5px #AB3C3C;
+  top: 2px; 
+}
+button:active{
+  box-shadow: 0px 0px #AB3C3C;
+  top: 5px; 
+}
+
+.big-avatar {
+  width: 200px;
+  border-radius: 110px;
+  border: 10px solid #EEE;
+  box-shadow: 0px 0px 15px #999;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #333;
+  color:#FFF;
+  z-index: 1000;
+  overflow: hidden;
+  text-align:center;
+  line-height:20px;
+  margin:0 0 0 0;
+}
